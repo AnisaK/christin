@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zwischen den Zeilen</title>
+  <meta name="description" content="Kolumnen über Liebe, Freundschaft, das Erwachsenwerden und all die leisen Gedanken dazwischen.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="#">
+    <span>ZWISCHEN</span>
+    <span>DEN ZEILEN</span>
+    <small>Kolumnen über das Leben</small>
+  </a>
+
+  <nav>
+    <a class="active" href="#start">Startseite</a>
+    <a href="#kolumnen">Kolumnen</a>
+    <a href="#themen">Themen</a>
+    <a href="#ueber-mich">Über mich</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <a class="subscribe-top" href="#newsletter">ABONNIEREN</a>
+</header>
+
+<main id="start">
+
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Kolumnen & Gedanken</p>
+      <h1>Manche Dinge<br>verstehen wir erst,<br>wenn wir aufhören,<br>sie zu erklären.</h1>
+      <div class="pink-line"></div>
+      <p class="intro">
+        Kolumnen über Liebe, Freundschaft, das Erwachsenwerden
+        und all die leisen Gedanken dazwischen.
+      </p>
+      <a class="main-button" href="#kolumnen">NEUESTE KOLUMNE LESEN <span>→</span></a>
+    </div>
+
+    <div class="hero-image">
+      <img src="autor.jpg" alt="Die Autorin in einer Landschaft">
+    </div>
+  </section>
+
+  <section class="latest" id="kolumnen">
+    <div class="section-title">
+      <p class="eyebrow">Neueste Kolumnen</p>
+      <h2>Was mich<br>bewegt</h2>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-image image-one"></div>
+        <div class="card-content">
+          <div class="meta"><span>LIEBE</span><time>03. MAI 2026</time></div>
+          <h3>Es ist nicht das Alleinsein. Es ist das Gefühl, nicht gewählt zu werden.</h3>
+          <a href="#">Weiterlesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image image-two"></div>
+        <div class="card-content">
+          <div class="meta"><span>GEDANKEN</span><time>28. APRIL 2026</time></div>
+          <h3>Über die leisen Abschiede und die Menschen, die bleiben sollen.</h3>
+          <a href="#">Weiterlesen →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-image image-three"></div>
+        <div class="card-content">
+          <div class="meta"><span>ALLTAG</span><time>20. APRIL 2026</time></div>
+          <h3>Zwischen To-do-Listen und Tagträumen: Mein ganz normaler Wahnsinn.</h3>
+          <a href="#">Weiterlesen →</a>
+        </div>
+      </article>
+    </div>
+
+    <a class="outline-button" href="#">ALLE KOLUMNEN ANSEHEN</a>
+  </section>
+
+  <section class="about" id="ueber-mich">
+    <div class="about-photo">
+      <img src="autor.jpg" alt="Portrait der Autorin">
+    </div>
+
+    <div class="about-copy">
+      <p class="eyebrow">Hallo, ich bin</p>
+      <h2>Schön, dass du hier bist.</h2>
+      <div class="pink-line"></div>
+      <p>
+        Ich schreibe über das Leben zwischen dem, was wir denken und dem,
+        was wir sagen. Über Liebe, Freundschaften, Zweifel und all das,
+        was uns prägt.
+      </p>
+      <p>
+        Manchmal tiefgründig, manchmal leicht. Aber immer ehrlich.
+      </p>
+      <p>Viel Spaß beim Lesen!</p>
+      <div class="signature">Deine ♡</div>
+    </div>
+  </section>
+
+  <section class="newsletter" id="newsletter">
+    <div class="mail-icon">♡</div>
+    <div class="newsletter-title">Lass dir die nächsten<br>Geschichten nicht entgehen.</div>
+    <form onsubmit="event.preventDefault(); alert('Danke! Deine Anmeldung wurde gespeichert.');">
+      <input type="email" placeholder="Deine E-Mail-Adresse" required>
+      <button type="submit">ANMELDEN</button>
+    </form>
+    <p>Kein Spam, versprochen.<br>Nur Gedanken, die bleiben.</p>
+  </section>
+
+</main>
+
+<footer id="kontakt">
+  <div class="footer-brand">
+    <div class="logo">
+      <span>ZWISCHEN</span>
+      <span>DEN ZEILEN</span>
+      <small>Kolumnen über das Leben</small>
+    </div>
+  </div>
+
+  <div class="footer-column">
+    <h4>NAVIGATION</h4>
+    <a href="#start">Startseite</a>
+    <a href="#kolumnen">Kolumnen</a>
+    <a href="#themen">Themen</a>
+    <a href="#ueber-mich">Über mich</a>
+    <a href="#kontakt">Kontakt</a>
+  </div>
+
+  <div class="footer-column" id="themen">
+    <h4>THEMEN</h4>
+    <a href="#">Liebe</a>
+    <a href="#">Freundschaft</a>
+    <a href="#">Alltag</a>
+    <a href="#">Gedanken</a>
+    <a href="#">Erwachsenwerden</a>
+  </div>
+
+  <div class="footer-column">
+    <h4>RECHTLICHES</h4>
+    <a href="#">Impressum</a>
+    <a href="#">Datenschutz</a>
+  </div>
+
+  <div class="footer-column socials">
+    <h4>FOLGE MIR</h4>
+    <div>
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="Pinterest">P</a>
+      <a href="#" aria-label="E-Mail">✉</a>
+    </div>
+  </div>
+
+  <div class="copyright">
+    © 2026 Zwischen den Zeilen. Alle Rechte vorbehalten. ♡
+  </div>
+</footer>
+
+</body>
+</html>
